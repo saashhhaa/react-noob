@@ -8,7 +8,7 @@ export const Scene2 = () => {
 
   return ( 
     <div className="container">
-      <img src="public/macBurned.jpg" alt="" />
+      <img src={process.env.PUBLIC_URL + "/macBurned.jpg"} alt="" />
       <div className="cover">
         <button onClick={() => navigate("/scene3")}>Сбежать</button>
         <button onClick={() => navigate("/scene4")}>

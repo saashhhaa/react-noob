@@ -2,8 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Scene1 = () => {
-   const navigate = useNavigate();
-
+  const navigate = useNavigate();
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -25,14 +24,14 @@ export const Scene1 = () => {
     <div className="container">
       <img
         onClick={handleClick}
-        src="public/macdonalds.jpg"
+        src={process.env.PUBLIC_URL + "/macdonalds.jpg"}
         alt="Macdonalds"
         style={{ cursor: "pointer" }}
       />
       <button onClick={() => navigate("/scene2")}>Поджечь</button>
       <audio
         ref={audioRef}
-        src="public/pennivaize.mp3"
+        src={process.env.PUBLIC_URL + "/pennivaize.mp3"}
         autoPlay
         loop
         muted

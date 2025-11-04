@@ -21,7 +21,7 @@ export const Scene4 = () => {
   return (
     <div className="container">
       <p style={{ border: "none" }}>Вы сгорели!</p>
-      <video ref={videoRef} autoPlay muted loop src="public/burned.MP4"></video>
+      <video ref={videoRef} autoPlay muted loop src={process.env.PUBLIC_URL + "/burned.MP4"}></video>
     </div>
   );
 };
