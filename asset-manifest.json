@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-noob/static/css/main.9c1f7921.css",
-    "main.js": "/react-noob/static/js/main.ef5fc3b8.js",
+    "main.js": "/react-noob/static/js/main.055480c8.js",
     "static/media/baby.jpg": "/react-noob/static/media/baby.82c799b3e8d6c8db25a0.jpg",
     "index.html": "/react-noob/index.html",
     "main.9c1f7921.css.map": "/react-noob/static/css/main.9c1f7921.css.map",
-    "main.ef5fc3b8.js.map": "/react-noob/static/js/main.ef5fc3b8.js.map"
+    "main.055480c8.js.map": "/react-noob/static/js/main.055480c8.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1f7921.css",
-    "static/js/main.ef5fc3b8.js"
+    "static/js/main.055480c8.js"
   ]
 }
