@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  width: 30vw;
+}
+
+
+img {
+  height: 40vh;
+  width: 45vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+}

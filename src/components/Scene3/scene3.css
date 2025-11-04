@@ -1,0 +1,21 @@
+video {
+    height: 50vh;
+    position: absolute;
+    right: 10vw;
+    bottom: 5vh;
+}
+
+p {
+    border: 1.5px solid black;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 10px 20px;
+    margin-right: 20vw;
+    background-color: white;
+}
+
+body {
+    background-image: url('../../../public/baby.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

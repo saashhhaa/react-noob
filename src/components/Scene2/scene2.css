@@ -1,0 +1,10 @@
+.cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+button {
+    width: 20vw !important;
+}
