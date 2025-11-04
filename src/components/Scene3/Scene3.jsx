@@ -21,7 +21,7 @@ export const Scene3 = () => {
 
   return (
     <div className="container">
-      <img src="/macBurned.jpg" alt="mac burned" />
+      <img src="public/macBurned.jpg" alt="mac burned" />
       <p onClick={handleParagraphClick} style={{ cursor: "pointer" }}>
         Товарищ Маргинал, а бортики !!!????
       </p>
@@ -29,7 +29,7 @@ export const Scene3 = () => {
       {showVideo && (
         <video
           ref={videoRef}
-          src="/abortici.MP4"
+          src="public/abortici.MP4"
           loop
           autoPlay
           muted

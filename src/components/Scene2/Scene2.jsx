@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import macBurned from "";
 
 import "./scene2.css";
 
@@ -7,7 +8,7 @@ export const Scene2 = () => {
 
   return ( 
     <div className="container">
-      <img src="/macBurned.jpg" alt="" />
+      <img src="public/macBurned.jpg" alt="" />
       <div className="cover">
         <button onClick={() => navigate("/scene3")}>Сбежать</button>
         <button onClick={() => navigate("/scene4")}>
